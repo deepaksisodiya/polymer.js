@@ -1,0 +1,25 @@
+{
+  "name": "polymer.js",
+  "version": "1.0.0",
+  "description": "polymer.js=============",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepaksisodiya/polymer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepaksisodiya/polymer.js/issues"
+  },
+  "homepage": "https://github.com/deepaksisodiya/polymer.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsbeautifier": "^0.2.7"
+  }
+}

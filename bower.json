@@ -1,0 +1,20 @@
+{
+  "name": "polymer.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/deepaksisodiya/polymer.js",
+  "authors": [
+    "deepak sisodiya <deepak.sisodiya@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "polymer": "polymer/Polymer#~0.5.2"
+  }
+}
