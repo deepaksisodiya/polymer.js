@@ -1,0 +1,19 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="hello-world5" attributes="name">
+    <template>
+        <p>Hello {{name}}</p>
+        <input type="text" value="{{name}}">
+        <button on-click="{{changeName}}">Change Name</button>
+    </template>
+    <script>
+        Polymer("hello-world5", {
+            ready : function () {
+                this.name = "World"
+            },
+            changeName : function () {
+                this.name = "You"
+            }
+        })
+    </script>
+</polymer-element>
