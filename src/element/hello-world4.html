@@ -1,0 +1,28 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="hello-world4" attributes="name">
+    <template>
+        <ul>
+          <template repeat="{{ name in names }}">
+            <li>Hello {{name.name}}</li>
+          </template>
+        </ul>
+    </template>
+    <script>
+        Polymer("hello-world4", {
+            ready : function() {
+                this.names = [
+                    {
+                        name : "Deepak"
+                    },
+                    {
+                        name : "Chetan"
+                    },
+                    {
+                        name : "Narendra"
+                    }
+                ]
+            }
+        })
+    </script>
+</polymer-element>
