@@ -3,11 +3,14 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
     <link rel="import" href="src/element/hello-world.html">
     <link rel="import" href="src/element/hello-world2.html">
     <link rel="import" href="src/element/hello-world3.html">
     <link rel="import" href="src/element/hello-world4.html">
     <link rel="import" href="src/element/hello-world5.html">
+    <link rel="import" href="bower_components/core-tooltip/core-tooltip.html">
+
 </head>
 <body>
 
@@ -32,6 +35,19 @@
 <hello-world5></hello-world5>
 
 <hello-world5></hello-world5>
+
+<br>
+
+<core-tooltip label="I'm a tooltip">
+    <span>Hover over me.</span>
+</core-tooltip>
+
+<br>
+
+<core-tooltip label="I'm a tooltip" position="right">
+    <span>Hover over me.</span>
+</core-tooltip>
+
 
 </body>
 </html>
